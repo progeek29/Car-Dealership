@@ -1,6 +1,6 @@
-package CarDealership.Details.controller;
+package com.car.dealership.details.response;
 
-public class AddResponse {
+public class CarResponse {
 	
 	private String message;
 	private long id;
