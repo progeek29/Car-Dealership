@@ -21,4 +21,11 @@ public class CarController {
 	public ResponseEntity<CarResponse> addCarImplementation(@RequestBody CarRequest carRequest) {
 		return new ResponseEntity<>(carService.addCar(carRequest), HttpStatus.CREATED);
 	}
+	
+	
+	@PostMapping("/add1Car")
+	public ResponseEntity<CarResponse> addCarImplementation2(@RequestBody CarRequest carRequest) {
+		return new ResponseEntity<>(carService.addCar(carRequest), HttpStatus.CREATED);
+	}
+
 }
